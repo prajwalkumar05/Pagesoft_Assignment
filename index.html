@@ -1,22 +1,42 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <title>Google Clone</title>
+    <link rel="stylesheet" href="index.css" />
+    
+  </head>
+  <body>
     <main class="google">
-        <nav class="nav">
-            <ul>
-                <li>gmail</li>
-                <li>images</li>
-                <div class="logo">
-                    <a href="">p</a>
-                </div>
-            </ul>
-        </nav>
+        <div class="header">
+      <div class="header__right">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <span class="material-icons header__app"> apps </span>
+        <span class="material-icons"> account_circle </span>
+      </div>
+    </div>
+
+    <div class="mainBody">
+      <img
+        src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        alt="logo"
+      />
+
+      <div class="search">
+        <div class="search__input">
+          <span class="material-icons">  </span>
+          <input type="text" />
+          <span class="material-icons"></span>
+        </div>
+
+        <div class="search_btn">
+          <button>Google Search</button>
+          <button>I'm Feeling Lucky</button>
+        </div>
+      </div>
     </main>
-</body>
+  </body>
 </html>
